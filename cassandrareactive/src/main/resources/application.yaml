@@ -1,0 +1,7 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: test
+      local-datacenter: datacenter1
+  datasource:
+    initialization-mode: embedded
